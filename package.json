@@ -4,9 +4,9 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "node api.js && next dev",
-    "build": "node api.js && next build --webpack",
-    "build:dev": "node api.js && next build --webpack",
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "build:dev": "next build --webpack",
     "preview": "next start",
     "lint": "eslint .",
     "format": "prettier --write ."
